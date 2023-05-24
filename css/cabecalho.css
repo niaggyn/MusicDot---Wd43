@@ -4,8 +4,11 @@
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.23em;
-    background-color: #2D5377;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
     color: #fff;
+    position:absolute;
 }
 
 .cabecalho_logo {
@@ -50,11 +53,5 @@
     }
     .cabecalho_item-menu-matricular a {
         padding: 1.8em 3.5em;
-    }
-}
-@media (min-width: 1066px) {
-    .cabecalho {
-        padding-left: calc((100% - 960px)/2);
-        padding-right: calc((100% - 960px)/2);
     }
 }
